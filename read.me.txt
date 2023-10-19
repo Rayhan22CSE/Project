@@ -1,0 +1,87 @@
+Description:
+
+The Hospital Management System is a simple command-line application designed to manage patient admissions and discharges, as well as maintain records of doctors associated with the hospital. The system allows users to perform various tasks such as admitting a patient, displaying the list of admitted patients, discharging a patient, adding a doctor, and displaying the list of doctors.
+
+Project Components:
+
+                                                         Patient Structure
+
+Attributes:
+Name
+Age
+Gender
+Home Address
+Blood Group
+Previous Blood Pressure
+Previous Blood Sugar Level
+Previous HDL Level
+Previous LDL Level
+
+                                                          Doctor Structure
+
+
+Attributes:
+Name
+Medical College
+Qualification
+Experience Years
+
+                                                
+
+Functionality :
+
+
+1.Admit Patient: Allows the user to input patient details and store them in a file named "admit_patient.txt".
+2.Show Patient List: Displays the list of currently admitted patients by reading from the "admit_patient.txt" file.
+3.Discharge Patient: Enables the removal of a patient's data from the "admit_patient.txt" file and transfers it to a separate file named "discharge_patient.txt".
+4.Add Doctor: Allows the user to input doctor details and store them in a file named "doctor_list.txt".
+5.Show Doctor List: Displays the list of doctors associated with the hospital by reading from the "doctor_list.txt" file.
+
+
+                                                              Sample Input Dataset
+
+While the program interacts with users to input patient and doctor details, here's an example of what the contents of the data files might look like:
+
+  
+
+                                                            "Admit_patient.txt"
+
+
+
+Name: Md
+Age: 21
+Gender: MALE
+Home Address: BARGUNA
+Blood Group: B+
+Previous Blood Pressure: 120.00
+Previous Blood Sugar Level: 0.00
+Previous HDL Level: 0.00
+Previous LDL Level: 0.0
+
+Patient admitted succesfully
+
+                                          "Doctor_list.txt"
+
+Name: Dr. Sazzad
+Qualification: MBBs
+Medical College: DMC
+Experience Years: 4 
+                                         
+
+                                        Admitted Patients List:
+Name: Md
+Age: 21
+Gender: MALE
+Home Address: BARGUNA
+Blood Group: B+
+Previous Blood Pressure: 120.00
+Previous Blood Sugar Level: 0.00
+Previous HDL Level: 0.00
+Previous LDL Level: 0.00
+
+
+
+ Conclusion:
+
+
+The Hospital Management System provides a basic framework for managing patient and doctor records in a hospital. It demonstrates the usage of file handling in C and provides a simple and straightforward way to interact with patient and doctor data. This project can be further extended to include more features such as patient appointment scheduling, medical billing, and prescription management, making it a more comprehensive and robust hospital management solution.
